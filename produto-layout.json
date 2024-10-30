@@ -1,15 +1,18 @@
 {
-    "version": "1.0",
-    "title": "Layout de Produtos com JSON",
-    "type": "section",
-    "elements": [
-        {
-            "id": "produtos-lista",
-            "elType": "widget",
-            "widgetType": "html",
-            "settings": {
-                "html": "<div id=\"produtos-lista\"></div>"
-            }
-        }
-    ]
+  "produtos": [
+    {
+      "id": 1,
+      "nome": "Isadora Vale",
+      "descricao": "Descrição detalhada do Produto 1",
+      "preco": 
+      "imagem": "https://odgextras.com/wp-content/uploads/2024/10/Isadora-Vale-2.png"
+    },
+    {
+      "id": 2,
+      "nome": "Produto 2",
+      "descricao": "Descrição detalhada do Produto 2",
+      "preco": 49.99,
+      "imagem": "https://exemplo.com/imagens/produto2.jpg"
+    }
+  ]
 }
