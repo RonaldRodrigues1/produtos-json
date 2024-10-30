@@ -1,0 +1,15 @@
+{
+    "version": "1.0",
+    "title": "Layout de Produtos com JSON",
+    "type": "section",
+    "elements": [
+        {
+            "id": "produtos-lista",
+            "elType": "widget",
+            "widgetType": "html",
+            "settings": {
+                "html": "<div id=\"produtos-lista\"></div>"
+            }
+        }
+    ]
+}
